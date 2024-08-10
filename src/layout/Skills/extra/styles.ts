@@ -48,3 +48,10 @@ export const AboutParagraph = styled(Typography)(() => ({
   fontSize: "1rem",
   fontFamily: "Poppins",
 }));
+
+export const StyledImage = styled("img", {
+  shouldForwardProp: (prop: string) => !["width", "height"].includes(prop),
+})<{ width?: string; height?: string }>(({ width, height }) => ({
+  ...(width && { width }),
+  ...(height && { height }),
+}));

@@ -1,4 +1,6 @@
 import { Stack } from "@mui/material";
+import { useCallback } from "react";
+import toast from "react-hot-toast";
 import { Section } from "../../components";
 import {
   StyledButton as Button,
@@ -15,6 +17,10 @@ import {
 } from "./extra/styles";
 
 export default function Home() {
+  const openResume = useCallback(() => {
+    toast.error("not implemented yet");
+  }, []);
+
   return (
     <Section flexDirection="row" showTitle={false} id="home">
       <LeftContainer>
@@ -27,7 +33,7 @@ export default function Home() {
           </SmallHeading>
           <ButtonContainer>
             <Button>Portfolio</Button>
-            <Button>Resume</Button>
+            <Button onClick={openResume}>Resume</Button>
           </ButtonContainer>
         </Wrapper>
         <Stack />
