@@ -22,7 +22,7 @@ export const MuiCssBaseline: Components["MuiCssBaseline"] = {
       },
 
       "::-webkit-scrollbar-thumb": {
-        background: "#252525",
+        background: "#272727",
       },
 
       "::-webkit-scrollbar-track": {

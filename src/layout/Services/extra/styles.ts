@@ -14,7 +14,7 @@ export const ServicesGrid = styled(Box)(() => ({
 }));
 
 export const Service = styled(Stack)(() => ({
-  background: "#252525",
+  background: "#272727",
   borderRadius: ".5rem",
   alignItems: "center",
   minHeight: "300px",
