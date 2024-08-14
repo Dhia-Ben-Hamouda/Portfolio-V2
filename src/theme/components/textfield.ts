@@ -13,7 +13,7 @@ export const MuiTextField: Components["MuiTextField"] = {
       },
 
       "& .MuiOutlinedInput-root": {
-        borderRadius: "5px", // Change this value to your desired border radius
+        borderRadius: "5px",
       },
 
       //   "& .MuiInputLabel-root.Mui-focused": {

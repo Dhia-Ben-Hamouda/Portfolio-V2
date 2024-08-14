@@ -1,5 +1,6 @@
 import { Box, colors, Stack, styled, Typography } from "@mui/material";
 import { Section } from "../../../components";
+import { borderRadius } from "../../../utils/constants";
 
 export const StyledSection = styled(Section)(() => ({
   flexDirection: "column",
@@ -15,10 +16,10 @@ export const ServicesGrid = styled(Box)(() => ({
 
 export const Service = styled(Stack)(() => ({
   background: "#272727",
-  borderRadius: ".5rem",
   alignItems: "center",
   minHeight: "300px",
   padding: "3rem 1.5rem",
+  borderRadius,
 }));
 
 export const Title = styled(Typography)(() => ({

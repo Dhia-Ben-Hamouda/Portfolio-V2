@@ -73,8 +73,9 @@ export default function MySkills() {
           <FaSass color="#CF649A" />
         </SkillWrapper>
         <SkillWrapper>
-          <StyledImage width="30%" src={figma} alt="figma logo" />
+          <SiDocker color="#02A1E9" />
         </SkillWrapper>
+
         <SkillWrapper>
           <StyledImage width="75%" src={java} alt="java logo" />
         </SkillWrapper>
@@ -88,7 +89,7 @@ export default function MySkills() {
           <StyledImage width="50%" src={aws} alt="aws logo" />
         </SkillWrapper>
         <SkillWrapper>
-          <SiDocker color="#0872BA" />
+          <StyledImage width="30%" src={figma} alt="figma logo" />
         </SkillWrapper>
       </SkillsGrid>
     </>

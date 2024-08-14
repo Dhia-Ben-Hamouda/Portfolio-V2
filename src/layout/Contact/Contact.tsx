@@ -28,19 +28,19 @@ export default function Contact() {
           <InfoContainer>
             <InfoWrapper>
               <IconContainer>
-                <FaPhoneAlt color="#333" size="1.25rem" />
+                <FaPhoneAlt color="#353535" size="1.25rem" />
               </IconContainer>
               <InfoText>Phone: +216 24 684 936</InfoText>
             </InfoWrapper>
             <InfoWrapper>
               <IconContainer>
-                <FaEnvelope color="#333" size="1.25rem" />
+                <FaEnvelope color="#353535" size="1.25rem" />
               </IconContainer>
               <InfoText>Email: dhiabenhamouda.5@gmail.com</InfoText>
             </InfoWrapper>
             <InfoWrapper>
               <IconContainer>
-                <FaLocationDot color="#333" size="1.25rem" />
+                <FaLocationDot color="#353535" size="1.25rem" />
               </IconContainer>
               <InfoText>Location: Tunisia</InfoText>
             </InfoWrapper>

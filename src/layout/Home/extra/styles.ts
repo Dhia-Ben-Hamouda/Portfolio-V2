@@ -1,6 +1,7 @@
-import { colors, Stack, styled } from "@mui/material";
+import { colors, Stack, styled, Typography } from "@mui/material";
 import { FaReact } from "react-icons/fa";
 import { Button } from "../../../components";
+import { borderRadius } from "../../../utils/constants";
 
 export const LeftContainer = styled(Stack)({
   width: "50%",
@@ -25,7 +26,7 @@ export const IconContainer = styled(Stack)(({ theme }) => ({
   justifyContent: "center",
   alignItems: "center",
   position: "relative",
-  borderRadius: ".5rem",
+  borderRadius,
 }));
 
 export const ContainerEffect = styled(Stack)(({ theme }) => ({
@@ -37,7 +38,7 @@ export const ContainerEffect = styled(Stack)(({ theme }) => ({
   left: "-1.5rem",
   zIndex: -1,
   border: `1px solid ${theme.palette.primary.main}`,
-  borderRadius: ".5rem",
+  borderRadius,
 }));
 
 export const ContainerIcon = styled(FaReact)(({ theme }) => ({
@@ -46,7 +47,7 @@ export const ContainerIcon = styled(FaReact)(({ theme }) => ({
   height: "300px",
 }));
 
-export const Heading = styled("h1")(({ theme }) => ({
+export const Heading = styled(Typography)(({ theme }) => ({
   fontFamily: "Forte",
   fontSize: "3.75rem",
   color: theme.palette.primary.main,
@@ -54,14 +55,14 @@ export const Heading = styled("h1")(({ theme }) => ({
   marginBlock: ".125rem",
 }));
 
-export const Greeting = styled("h2")({
+export const Greeting = styled(Typography)({
   fontFamily: "Forte",
   fontSize: "2rem",
   fontWeight: "400",
   color: colors.common.white,
 });
 
-export const SmallHeading = styled("h2")({
+export const SmallHeading = styled(Typography)({
   fontFamily: "Forte",
   fontSize: "2rem",
   fontWeight: "400",

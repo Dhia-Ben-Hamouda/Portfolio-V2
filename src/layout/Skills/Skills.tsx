@@ -27,7 +27,7 @@ export default function Skills() {
               responsive websites / apps from scratch. I'm currently learning UI
               / UX Design , Backend Development and Mobile Development. I'm
               currently working in Proxym Group as a frontend developer ( React
-              JS / React Native)
+              JS / React Native )
             </AboutParagraph>
           </AboutContainer>
         </Wrapper>
